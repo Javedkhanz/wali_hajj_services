@@ -36,7 +36,7 @@ defineProps({
                         </div>
                         <!-- A submit button -->
                         <div class="mb-4">
-                            <button type="submit"
+                            <button type="submit" onclick="getMessage()"
                                 class="w-full bg-green-600 text-white py-2 px-4 rounded-lg hover:bg-green-700">Send
                                 Message</button>
                         </div>
