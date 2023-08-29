@@ -47,7 +47,7 @@ defineProps({
           
           <!-- Call to action button -->
           <div class="w-full lg:w-1/5 mt-6 lg:mt-0 lg:px-4 text-center md:text-left">
-            <button class="bg-white hover:bg-grey-darker hover:text-red-600 border border-solid border-grey w-1/3 lg:w-full py-2">Visit now</button>
+            <button class="bg-white hover:bg-grey-darker hover:text-red-600 border border-solid border-grey w-1/3 lg:w-full py-2">Visit  now</button>
           </div>
           <!-- ./Call to action button -->
         </div>
@@ -59,7 +59,7 @@ defineProps({
   </div>
   <!-- ./Card wrapper -->
 </div>
-<!-- ./Container -->
+<!-- ./Container end -->
 </template>
 
 <style scoped></style>
