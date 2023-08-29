@@ -20,7 +20,7 @@ defineProps({
       </div>
       <!-- A column with the company logo and name -->
       <div class="w-full md:w-auto">
-        <img src="./public/logo.jpeg" alt="Wali Hajj Services Company Pvt Ltd" class="h-16 rounded-2xl w-auto mb-4">
+        <img src="/logo.jpeg" alt="Wali Hajj Services Company Pvt Ltd" class="h-16 rounded-2xl w-auto mb-4">
         <p class="text-sm">© 2023 Wali Hajj Services Company Pvt Ltd. All rights reserved.</p>
       </div>
     </div>
