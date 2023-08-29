@@ -6,20 +6,17 @@ defineProps({
 })
 
 
-
-
-
 </script>
 <!-- url('https://source.unsplash.com/random') -->
 <template>
-  <div class="h-[80vh] relative bg-cover selection:bg-slate-600 selection:text-white" style="background-image: url('public/logo.jfif') ">
+  <div class="h-[80vh] relative bg-cover selection:bg-slate-600 selection:text-white" style="background-image: url('./public/logo.jfif') ">
     <div class="px-2 pt-6 md:px-0 md:pt-0">
 
       <div class=" selection:text-black md:p-6 p-2  text-black  flex md:justify-between md:flex-row  flex-col ">
 
         <div class="flex justify-between   ">
           <div class="flex flex-col md:flex-row  justify-between md:space-x-3 md:space-y-0 space-y-5  ">
-            <img src="/logo.jfif" alt="logo" class="md:w-[100px] md:h-[100px] w-[32px] h-[32px] rounded-full">
+            <img src="./logo.jfif" alt="logo" class="md:w-[100px] md:h-[100px] w-[32px] h-[32px] rounded-full">
             <h2
               class=" md:block hidden  md:pt-9  text-2xl md:shadow-none shadow-lg shadow-neutral-500 md:text-3xl hover:cursor-grab text-center md:my-2 md:px-0 px-16 md:py-0 py-3 md:font-bold font-serif font-light  md:ml-0 ml-2 ">
               Wali Hajj Services</h2>
@@ -81,4 +78,5 @@ export default {
 </script>
 
 
-<style scoped></style>
+<style scoped>
+</style>

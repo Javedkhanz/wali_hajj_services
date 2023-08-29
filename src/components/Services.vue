@@ -10,7 +10,7 @@ defineProps({
 <template>
 
     <!-- A hero section with a background image and some text -->
-    <section class="bg-cover bg-center bg-no-repeat h-[40vh]" style="background-image: url('/hajj-background.jpg')">
+    <section class="bg-cover bg-center bg-no-repeat h-[40vh]" style="background-image: url('./hajj-background.jpg')">
         <div class="container mx-auto h-full flex items-center justify-center">
             <div class="bg-white bg-opacity-80 p-8 rounded-lg shadow-lg text-center">
                 <h2 class="text-4xl font-bold text-gray-800">Your Trusted Partner for Hajj and Umrah</h2>
