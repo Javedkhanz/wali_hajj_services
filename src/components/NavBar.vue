@@ -16,7 +16,7 @@ defineProps({
 
         <div class="flex justify-between   ">
           <div class="flex flex-col md:flex-row  justify-between md:space-x-3 md:space-y-0 space-y-5  ">
-            <img src="./public//logo.jfif" alt="logo" class="md:w-[100px] md:h-[100px] w-[32px] h-[32px] rounded-full">
+            <img src="./public/logo.jfif" alt="logo" class="md:w-[100px] md:h-[100px] w-[32px] h-[32px] rounded-full">
             <h2
               class=" md:block hidden  md:pt-9  text-2xl md:shadow-none shadow-lg shadow-neutral-500 md:text-3xl hover:cursor-grab text-center md:my-2 md:px-0 px-16 md:py-0 py-3 md:font-bold font-serif font-light  md:ml-0 ml-2 ">
               Wali Hajj Services</h2>
