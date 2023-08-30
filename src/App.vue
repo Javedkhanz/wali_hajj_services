@@ -29,7 +29,7 @@ import Contact_Loaction from './components/Contact_Loaction.vue'
 export default {
   methods: {
     openWhatsApp() {
-      const phoneNumber = "00923108120772"; // Replace with the desired phone number
+      const phoneNumber = "+923108120772"; // Replace with the desired phone number
       const message = "Hello, this is a test message."; // Replace with the desired message
       const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
       
