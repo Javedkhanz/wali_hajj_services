@@ -8,8 +8,9 @@ defineProps({
 
 </script>
 <!-- url('https://source.unsplash.com/random') -->
-<template>
-  <div class="h-[80vh] relative bg-cover selection:bg-slate-600 selection:text-white" style="background-image: url('https://source.unsplash.com/random') ">
+<template id="navbar">
+  <div class="h-[80vh] relative bg-cover selection:bg-slate-600 selection:text-white"
+    style="background-image: url('https://source.unsplash.com/random') ">
     <div class="px-2 pt-6 md:px-0 md:pt-0">
 
       <div class=" selection:text-black md:p-6 p-2  text-black  flex md:justify-between md:flex-row  flex-col ">
@@ -31,11 +32,19 @@ defineProps({
 
         <div :class="{ hidden: hidden }" ref="nav" class="navbar md:block  md:pt-8 md:text-xl ">
           <div class="flex font-semibold  md:flex-row flex-col pl-4 md:mt-0 mt-4    ">
-            <a href="#" class="md:px-4  py-2 px-1   ">Home</a>
-            <a href="#" class="md:px-4  py-2 px-1   ">About</a>
-            <a href="#" class="md:px-4  py-2 px-1   ">Services</a>
-            <a href="#" class="md:px-4  py-2 px-1   ">Contact</a>
-
+            <a href="#navabar" class="md:px-4  py-2 px-1   ">Home</a>
+            <a href="#about" class="md:px-4  py-2 px-1   ">About</a>
+            <a href="#about" class="md:px-4  py-2 px-1   ">location</a>
+            <a href="#services" class="md:px-4  py-2 px-1   ">Services</a>
+            <a href="#Contact" class="md:px-4  py-2 px-1   ">Contact</a>
+            
+              
+              <!-- <router-link  to="/Card-View">Serivces</router-link>
+              <router-link  to="/About-Us">About-Us</router-link>
+              <router-link  to="/Contact-Loaction">Contact-Us</router-link>
+              <router-link  to="/Contact-Loaction">Locaiton</router-link>
+               -->
+            
           </div>
         </div>
       </div>
@@ -43,12 +52,10 @@ defineProps({
 
     <div ref="w_min" class="flex flex-col h-[80%] justify-center items-center md:space-y-8 space-y-0   text-black">
       <h1 class=" md:text-7xl   text-2xl  font-bold  ">Wali Hajj Services PVT </h1>
-      <p  class=" md:text-2xl text-2xl ">Your description here</p>
+      <p class=" md:text-2xl text-2xl ">Your description here</p>
     </div>
 
   </div>
-
-
 </template>
 
 <script>
@@ -62,13 +69,13 @@ export default {
   methods: {
     toggleNav() {
       this.hidden = !this.hidden; // toggle the state of the navbar
-      
-      if (this.reset_h  == 0) {
+
+      if (this.reset_h == 0) {
         this.$refs.w_min.style.height = "40%";
-        this.reset_h=1;
+        this.reset_h = 1;
       } else {
         this.$refs.w_min.style.height = "80%";
-        this.reset_h=0;
+        this.reset_h = 0;
 
       }
     },
@@ -78,5 +85,4 @@ export default {
 </script>
 
 
-<style scoped>
-</style>
+<style scoped></style>

@@ -9,8 +9,11 @@ import Contact_Loaction from './components/Contact_Loaction.vue'
 </script>
 
 <template>
-  
+  <button @click="openWhatsApp" class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4  fixed right-16  bottom-16 p-8 rounded-full">
+    WhatsApp
+  </button>
   <NavBar msg="true" />
+  <router-view />
   <CardView msg="true" />
   <Services msg="true" />
   <AboutUs msg="true" />
@@ -18,6 +21,20 @@ import Contact_Loaction from './components/Contact_Loaction.vue'
   <Foot msg="true" />
 </template>
 
-<style scoped>
+<style scoped></style>
 
-</style>
+
+
+<script>
+export default {
+  methods: {
+    openWhatsApp() {
+      const phoneNumber = "03108120772"; // Replace with the desired phone number
+      const message = "Hello, this is a test message."; // Replace with the desired message
+      const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
+      
+      window.open(url, "_blank");
+    }
+  }
+};
+</script>

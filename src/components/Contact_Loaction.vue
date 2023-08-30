@@ -7,7 +7,7 @@ defineProps({
 
 </script>
 
-<template>
+<template id="contact">
     <!-- A section with a contact form and a map -->
     <section class="py-16 bg-gray-100">
         <div class="container mx-auto px-8">
@@ -36,7 +36,7 @@ defineProps({
                         </div>
                         <!-- A submit button -->
                         <div class="mb-4">
-                            <button type="submit" onclick="getMessage()"
+                            <button type="submit" id="clickButton"
                                 class="w-full bg-green-600 text-white py-2 px-4 rounded-lg hover:bg-green-700">Send
                                 Message</button>
                         </div>

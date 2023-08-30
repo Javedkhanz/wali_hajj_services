@@ -7,7 +7,7 @@ defineProps({
 
 </script>
 
-<template>
+<template id="services">
   <!-- <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src="https://source.unsplash.com/random" alt=""> -->
   
 <div class="container mt-32 mx-auto p-4 md:p-0 my-3">

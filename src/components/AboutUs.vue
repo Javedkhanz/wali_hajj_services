@@ -6,7 +6,7 @@ defineProps({
 })
 </script>
 
-<template>
+<template id="about">
     <!-- A section with some features and icons -->
     <section class="py-16 bg-gray-100">
         <div class="container mx-auto px-8">
