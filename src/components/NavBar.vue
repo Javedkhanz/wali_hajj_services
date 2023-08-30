@@ -9,7 +9,7 @@ defineProps({
 </script>
 <!-- url('https://source.unsplash.com/random') -->
 <template>
-  <div class="h-[80vh] relative bg-cover selection:bg-slate-600 selection:text-white" style="background-image: url('/logo.jpeg') ">
+  <div class="h-[80vh] relative bg-cover selection:bg-slate-600 selection:text-white" style="background-image: url('https://source.unsplash.com/random') ">
     <div class="px-2 pt-6 md:px-0 md:pt-0">
 
       <div class=" selection:text-black md:p-6 p-2  text-black  flex md:justify-between md:flex-row  flex-col ">
