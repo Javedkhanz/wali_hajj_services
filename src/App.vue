@@ -30,7 +30,7 @@ export default {
   methods: {
     openWhatsApp() {
       const phoneNumber = "+923108120772"; // Replace with the desired phone number
-      const message = "Hello, this is a test message."; // Replace with the desired message
+      const message = "Hello, ...."; // Replace with the desired message
       const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
       
       window.open(url, "_blank");
