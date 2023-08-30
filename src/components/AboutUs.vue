@@ -14,21 +14,21 @@ defineProps({
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <!-- A feature card with an icon, title, and description -->
                 <div class="flex flex-col items-center p-4 bg-white rounded-lg shadow-lg">
-                    <img src="" alt="Quality" class="h-15 w-auto mb-4">
+                    <img src="/public/direction.jpg" alt="Quality" class="h-15 w-auto mb-4">
                     <h4 class="text-xl font-bold text-gray-800">Quality</h4>
                     <p class="text-gray-600">We provide high-quality services and facilities for your comfort and
                         convenience.</p>
                 </div>
                 <!-- Another feature card -->
                 <div class="flex flex-col items-center p-4 bg-white rounded-lg shadow-lg">
-                    <img src="" alt="Experience" class="h-15 w-auto mb-4">
+                    <img src="public/experiance.jpg" alt="Experience" class="h-15 w-auto mb-4">
                     <h4 class="text-xl font-bold text-gray-800">Experience</h4>
                     <p class="text-gray-600">We have over 10 years of experience in organizing Hajj and Umrah trips for
                         thousands of pilgrims.</p>
                 </div>
                 <!-- Another feature card -->
                 <div class="flex flex-col items-center p-4 bg-white rounded-lg shadow-lg">
-                    <img src="  " alt="Guidance" class="h-15 w-auto mb-4">
+                    <img src="/public/quilty.jpg" alt="Guidance" class="h-15 w-auto mb-4">
                     <h4 class="text-xl font-bold text-gray-800">Guidance</h4>
                     <p class="text-gray-600">We have qualified and knowledgeable guides who will assist you throughout your
                         journey.</p>
