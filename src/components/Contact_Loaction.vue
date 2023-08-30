@@ -144,6 +144,7 @@ export default {
         }, (error) => {
           console.log('FAILED...', error.text);
         });
+        
 
       // emailjs.send(serviceID, templateID, params)
       //   .then(() => {
