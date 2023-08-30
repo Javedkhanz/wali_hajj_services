@@ -16,7 +16,7 @@ defineProps({
                 <h2 class="text-4xl font-bold text-gray-800">Your Trusted Partner for Hajj and Umrah</h2>
                 <p class="text-xl text-gray-600">We offer the best packages and services for your spiritual journey.</p>
                 <a href="#" class="mt-4 inline-block bg-green-600 text-white py-2 px-4 rounded-lg hover:bg-green-700">Learn
-                    More</a>
+                    More </a>
             </div>
         </div>
     </section>
