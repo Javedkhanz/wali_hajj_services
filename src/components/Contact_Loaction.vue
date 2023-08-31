@@ -75,14 +75,35 @@ export default {
       this.btnText = 'Sending...';
 
 
-      
+
+      // emailjs.send("service_gafse82", "template_bwfwext", {
+      //   user_name: this.name,
+      //   message: this.message,
+      //   user_email: this.email,
+      // });
       emailjs.send("service_gafse82", "template_bwfwext", {
         user_name: this.name,
         message: this.message,
         user_email: this.email,
-      });
+      })
+        .then(
+          function (response) {
+            // This code will run if the email is sent successfully
+            // console.log("SUCCESS!", response.status, response.text);
+            // alert("Email sent successfully!");
+            this.btnText = 'Message sended';
+            this.name  = ''
+            this.message  = ''
+            this.email  = ''
+          },
+          function (error) {
+            // This code will run if the email fails to send
+            console.log("FAILED...", error);
+            alert("Email failed to send: " + error);
+          }
+        );
 
-      this.btnText = 'Message sended';
+      // this.btnText = 'Message sended';
     },
   },
 };
