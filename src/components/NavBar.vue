@@ -51,8 +51,8 @@ defineProps({
     </div>
 
     <div ref="w_min" class="flex flex-col h-[80%] justify-center items-center md:space-y-8 space-y-0   text-black">
-      <h1 class=" md:text-7xl   text-2xl  font-bold  ">Wali Hajj Services PVT </h1>
-      <p class=" md:text-2xl text-2xl ">Your description here</p>
+      <h1 class=" md:text-7xl   text-2xl  font-bold  ">Wali Hajj Services PVT limmited(5115) </h1>
+      <p class=" md:text-2xl text-2xl ">Register from Paksitan hajj organization</p>
     </div>
 
   </div>

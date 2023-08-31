@@ -16,7 +16,10 @@ defineProps({
         <p class="mb-2"><strong>Address:</strong></p>
         <p>1st Floor, Sardarwali Plaza, Alamdar Road, Satellite Town, Beside Pearl Institut, Satellite Town, Quetta, Balochistan</p>
         <p class="mt-4"><strong>Phone:</strong></p>
-        <p>(081) 2449350</p>
+        <p>03003823655</p> 
+        <p>03003829155</p>
+        <p class="mt-4"><strong>Email:</strong></p>
+        <p>walihajj5115@gamil.com</p> 
       </div>
       <!-- A column with the company logo and name -->
       <div class="w-full md:w-auto">
