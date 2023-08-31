@@ -79,7 +79,7 @@ export default {
       emailjs.send("service_gafse82", "template_bwfwext", {
         user_name: this.name,
         message: this.message,
-        user_email: this.message,
+        user_email: this.email,
       });
 
       this.btnText = 'Message sended';
