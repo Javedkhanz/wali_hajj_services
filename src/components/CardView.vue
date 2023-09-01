@@ -54,7 +54,19 @@ defineProps({
             <!-- Call to action button -->
             <div class="w-full lg:w-1/5 mt-6 lg:mt-0 lg:px-4 text-center md:text-left">
               <button
-                class="bg-white hover:bg-grey-darker hover:text-red-600 border border-solid border-grey w-1/3 lg:w-full py-2">BOOK NOW</button>
+                class="bg-white hover:bg-grey-darker hover:text-red-600 border border-solid border-grey w-1/3 lg:w-full py-2"
+                @click="showMessage">
+                BOOK NOW
+              </button>
+              <div v-if="messageVisible"
+                class="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-gray-900 bg-opacity-50">
+                <div class="bg-white p-8 rounded shadow-lg text-center">
+                  <h1 class="text-xl font-bold">Soon hajj package for 2024 will be announced</h1>
+                  <button class="mt-4 px-4 py-2 bg-red-600 text-white rounded" @click="hideMessage">
+                    Close
+                  </button>
+                </div>
+              </div>
             </div>
             <!-- ./Call to action button -->
           </div>
@@ -66,6 +78,23 @@ defineProps({
     </div>
     <!-- ./Card wrapper -->
   </div>
-  <!-- ./Container end --></template>
-
+  <!-- ./Container end -->
+</template>
+<script>
+export default {
+  data() {
+    return {
+      messageVisible: false,
+    };
+  },
+  methods: {
+    showMessage() {
+      this.messageVisible = true;
+    },
+    hideMessage() {
+      this.messageVisible = false;
+    },
+  },
+};
+</script>
 <style scoped></style>
