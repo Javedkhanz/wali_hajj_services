@@ -17,7 +17,7 @@ defineProps({
 
       <!-- Card image -->
       <div class="bg-cover bg-bottom border w-full md:w-1/3 h-64 md:h-auto relative"
-        style="background-image:url('/bg2.jpg')">
+        style="background-image:url('/bg2.jpg') ; background-position: center;">
         <div class="absolute text-xl">
           <i class="fa fa-heart text-white hover:text-red-light ml-4 mt-4 cursor-pointer"></i>
         </div>
