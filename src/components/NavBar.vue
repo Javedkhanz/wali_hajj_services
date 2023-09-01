@@ -9,8 +9,8 @@ defineProps({
 </script>
 <!-- url('https://source.unsplash.com/random') -->
 <template id="navbar">
-  <div class="h-[80vh] relative bg-cover md:bg-[70%] bg-70 selection:bg-slate-600 selection:text-white" 
-  style="  background-image: url('/bg4.PNG');   background-repeat: repeat; background-position: bottom; ">
+  <div class="h-[80vh] relative bg-cover md:bg-[70%] bg-70 selection:bg-slate-600 selection:text-white"
+    style="  background-image: url('/bg4.PNG');   background-repeat: repeat; background-position: bottom; ">
     <div class="px-2 pt-6 md:px-0 md:pt-0">
 
       <div class=" selection:text-black md:p-6 p-2  text-black  flex md:justify-between md:flex-row  flex-col ">
@@ -52,7 +52,10 @@ defineProps({
 
     <div ref="w_min"
       class="flex flex-col text-center h-[80%] justify-center items-center md:space-y-8 space-y-0   text-black">
-      <h1 class=" md:text-7xl   text-2xl  font-bold  ">Wali Hajj Services PVT limmited(5115) </h1>
+      <!-- <h1 class=" md:text-7xl   text-2xl  font-bold  ">Wali Hajj Services PVT limmited(5115) </h1> -->
+      <div id="app">
+        <div class="word  md:text-7xl   text-2xl  font-bold ">{{ part }}</div>
+      </div>
       <p class=" md:text-2xl text-2xl ">Register from Paksitan hajj organization</p>
     </div>
 
@@ -63,9 +66,28 @@ defineProps({
 export default {
   data() {
     return {
-      hidden: true, // initial state of the navbar
-      reset_h: 0, // initial state of the navbar
+      hidden: true,
+      reset_h: 0,
+      words: [
+        "WellCome to Wali hajj service",
+        "We offer hajj and umrah",
+        "13 Years Experiance of hajj manamgment",
+        "Contact Number: 03003823655 & 03003829155",
+        "Address :  Sardarwali Plaza, Alamdar Road, Satellite Town,  Beside Pearl Institut, Satellite Town, Quetta ",
+      ],
+      part: "",
+      i: 0,
+      offset: 0,
+      len: 0,
+      forwards: true,
+      skip_count: 0,
+      skip_delay: 50,
+      speed: 70
     };
+  },
+  mounted() {
+    this.len = this.words.length;
+    this.wordflick();
   },
   methods: {
     toggleNav() {
@@ -80,10 +102,39 @@ export default {
 
       }
     },
+    wordflick() {
+      setInterval(() => {
+        if (this.forwards) {
+          if (this.offset >= this.words[this.i].length) {
+            ++this.skip_count;
+            if (this.skip_count == this.skip_delay) {
+              this.forwards = false;
+              this.skip_count = 0;
+            }
+          }
+        } else {
+          if (this.offset == 0) {
+            this.forwards = true;
+            this.i++;
+            this.offset = 0;
+            if (this.i >= this.len) {
+              this.i = 0;
+            }
+          }
+        }
+        this.part = this.words[this.i].substr(0, this.offset);
+        if (this.skip_count == 0) {
+          if (this.forwards) {
+            this.offset++;
+          } else {
+            this.offset--;
+          }
+        }
+      }, this.speed);
+    }
   },
 
 };
 </script>
-
 
 <style scoped></style>
