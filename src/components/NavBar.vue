@@ -70,6 +70,7 @@ export default {
       reset_h: 0,
       words: [
         "WellCome to Wali hajj service",
+        "Enrollment number: 5115",
         "We offer hajj and umrah",
         "13 Years Experiance of hajj manamgment",
         "Contact Number: 03003823655 & 03003829155",
