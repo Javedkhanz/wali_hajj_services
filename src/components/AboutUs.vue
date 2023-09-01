@@ -21,14 +21,14 @@ defineProps({
                 </div>
                 <!-- Another feature card -->
                 <div class="flex flex-col items-center p-4 bg-white rounded-lg shadow-lg">
-                    <img src="/experiance.jpg" alt="Experience" class="h-15 w-auto mb-4">
+                    <img src="/minah.jpeg" alt="Experience" class="h-15 w-auto mb-4">
                     <h4 class="text-xl font-bold text-gray-800">Experience</h4>
                     <p class="text-gray-600">We have over 10 years of experience in organizing Hajj and Umrah trips for
                         thousands of pilgrims.</p>
                 </div>
                 <!-- Another feature card -->
                 <div class="flex flex-col items-center p-4 bg-white rounded-lg shadow-lg">
-                    <img src="/quilty.jpg" alt="Guidance" class="h-15 w-auto mb-4">
+                    <img src="/jamal.jpeg" alt="Guidance" class="h-15 w-auto mb-4">
                     <h4 class="text-xl font-bold text-gray-800">Guidance</h4>
                     <p class="text-gray-600">We have qualified and knowledgeable guides who will assist you throughout your
                         journey.</p>

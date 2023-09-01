@@ -9,9 +9,10 @@ import Contact_Loaction from './components/Contact_Loaction.vue'
 </script>
 
 <template>
-  <button @click="openWhatsApp" class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4  fixed md:right-16  md:bottom-16 right-8 bottom-12 z-10 w-fit h-16 md:w-28 md:h-28 cursor-pointer rounded-full">
-    WhatsApp
-  </button>
+  <button @click="openWhatsApp" class="fixed md:right-16 md:bottom-16 right-8 bottom-12 z-10 w-fit h-16 md:w-28 md:h-28 cursor-pointer rounded-full" style="background-image: url('/whatsapp_logo.png'); background-size: cover;">
+    <!-- You can keep the rest of your button content here -->
+</button>
+
   <NavBar msg="true" />
   <router-view />
   <CardView msg="true" />

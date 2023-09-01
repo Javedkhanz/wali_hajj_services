@@ -9,8 +9,8 @@ defineProps({
 </script>
 <!-- url('https://source.unsplash.com/random') -->
 <template id="navbar">
-  <div class="h-[80vh] relative bg-cover selection:bg-slate-600 selection:text-white"
-    style="background-image: url('https://source.unsplash.com/random') ">
+  <div class="h-[80vh] relative bg-cover md:bg-[70%] bg-70 selection:bg-slate-600 selection:text-white" 
+  style="  background-image: url('/bg4.PNG');   background-repeat: repeat; background-position: bottom; ">
     <div class="px-2 pt-6 md:px-0 md:pt-0">
 
       <div class=" selection:text-black md:p-6 p-2  text-black  flex md:justify-between md:flex-row  flex-col ">
@@ -37,20 +37,21 @@ defineProps({
             <a href="#about" class="md:px-4  py-2 px-1   ">location</a>
             <a href="#services" class="md:px-4  py-2 px-1   ">Services</a>
             <a href="#Contact" class="md:px-4  py-2 px-1   ">Contact</a>
-            
-              
-              <!-- <router-link  to="/Card-View">Serivces</router-link>
+
+
+            <!-- <router-link  to="/Card-View">Serivces</router-link>
               <router-link  to="/About-Us">About-Us</router-link>
               <router-link  to="/Contact-Loaction">Contact-Us</router-link>
               <router-link  to="/Contact-Loaction">Locaiton</router-link>
                -->
-            
+
           </div>
         </div>
       </div>
     </div>
 
-    <div ref="w_min" class="flex flex-col h-[80%] justify-center items-center md:space-y-8 space-y-0   text-black">
+    <div ref="w_min"
+      class="flex flex-col text-center h-[80%] justify-center items-center md:space-y-8 space-y-0   text-black">
       <h1 class=" md:text-7xl   text-2xl  font-bold  ">Wali Hajj Services PVT limmited(5115) </h1>
       <p class=" md:text-2xl text-2xl ">Register from Paksitan hajj organization</p>
     </div>
