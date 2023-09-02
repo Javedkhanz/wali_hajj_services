@@ -74,7 +74,7 @@ export default {
         "We offer hajj and umrah",
         "13 Years Experiance of hajj manamgment",
         "Contact Number: 03003823655 & 03003829155",
-        "Address :  Sardarwali Plaza, Alamdar Road, Satellite Town,  Beside Pearl Institut, Satellite Town, Quetta ",
+        "Address :  Sardarwali Plaza, Satellite Town,  Beside Pearl Institut, Satellite Town, Quetta ",
       ],
       part: "",
       i: 0,
