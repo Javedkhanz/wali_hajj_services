@@ -72,7 +72,7 @@ export default {
         "WellCome to Wali hajj services",
         "Enrollment number: 5115",
         "We offer hajj and umrah",
-        "13 Years Experiance of hajj manamgment",
+        "18 Years Experiance of hajj manamgment",
         "Contact Number: 03003823655 & 03003829155",
         "Address :  Sardarwali Plaza, Satellite Town,  Beside Pearl Institut, Satellite Town, Quetta ",
       ],
