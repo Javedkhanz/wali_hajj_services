@@ -17,8 +17,8 @@ import Contact_Loaction from './components/Contact_Loaction.vue'
   <NavBar msg="true" />
   <router-view />
   <CardView msg="true" />
-  <CEO msg="true" />
   <Services msg="true" />
+  <CEO msg="true" />
   <AboutUs msg="true" />
   <Contact_Loaction msg="true" />
   <Foot msg="true" />

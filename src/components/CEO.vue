@@ -1,7 +1,7 @@
 <!-- src/components/CEOProfile.vue -->
 
 <template>
-    <div class="container mx-auto p-4 md:p-8 my-3 bg-white shadow-lg rounded-lg">
+    <div class="container mx-auto max-w-6xl p-4 md:p-8 my-3 bg-white shadow-lg rounded-lg">
         <div class="flex items-center">
             <img src="/hajji_barat.jpg" alt="CEO Image" class="w-16 h-16 rounded-full mr-4" />
             <div>
