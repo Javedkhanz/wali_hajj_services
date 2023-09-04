@@ -74,7 +74,7 @@ export default {
         "We offer hajj and umrah",
         "18 Years Experiance of hajj manamgment",
         "Contact Number: 03003823655 & 03003829155",
-        "Address :  Sardarwali Plaza, Satellite Town,  Beside Pearl Institut, Satellite Town, Quetta ",
+        "Address :  Sardar Wali Plaza New Truck Adda ,Near Satellite Pearl Institut Town, Quetta ,Balochistan ",
       ],
       part: "",
       i: 0,
