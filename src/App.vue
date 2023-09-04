@@ -4,6 +4,7 @@ import CardView from './components/CardView.vue'
 import Services from './components/Services.vue'
 import Foot from './components/Foot.vue'
 import AboutUs from './components/AboutUs.vue'
+import CEO from './components/CEO.vue'
 import Contact_Loaction from './components/Contact_Loaction.vue'
 
 </script>
@@ -16,6 +17,7 @@ import Contact_Loaction from './components/Contact_Loaction.vue'
   <NavBar msg="true" />
   <router-view />
   <CardView msg="true" />
+  <CEO msg="true" />
   <Services msg="true" />
   <AboutUs msg="true" />
   <Contact_Loaction msg="true" />

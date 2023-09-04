@@ -14,7 +14,7 @@ defineProps({
       <!-- A column with the company address and phone number -->
       <div class="w-full md:w-auto mb-4 md:mb-0">
         <p class="mb-2"><strong>Address:</strong></p>
-        <p>1st Floor, Sardarwali Plaza, Satellite Town, Beside Pearl Institut, Satellite Town, Quetta, Balochistan</p>
+        <p>Sardar Wali Plaza New Truck Adda ,Near Satellite Pearl Institut Town, Quetta, Balochistan</p>
         <p class="mt-4"><strong>Phone:</strong></p>
         <p>03003823655</p> 
         <p>03003829155</p>

@@ -16,7 +16,7 @@ defineProps({
                 <p class="text-xl text-gray-600">We offer the best packages and services for your spiritual journey.</p>
                 <a href="/packege.jpeg" 
                     class="mt-4 inline-block bg-green-600 text-white py-2 px-4 rounded-lg hover:bg-green-700"
-                    >Download packege </a>
+                    >Download packege and See facilaties</a>
 
 
                 <div v-if="messageVisible"
