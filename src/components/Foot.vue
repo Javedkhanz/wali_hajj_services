@@ -24,13 +24,18 @@ defineProps({
 
         <p class="mt-4"><strong>Email:</strong></p>
         <p><a href="mailto:walihajj5115@gmail.com">walihajj5115@gmail.com</a></p>
-      </div>
+       
 
+      </div>
       <!-- A column with the company logo and name -->
       <div class="w-full md:w-auto">
         <img src="/logo.jpeg" alt="Wali Hajj Services Company Pvt Ltd" class="h-16 rounded-2xl w-auto mb-4">
         <p class="text-sm">© 2023 Wali Hajj Services Company Pvt Ltd. All rights reserved.</p>
+        <br>
+        <p class="text-sm">Website created by <b class="underline">Javed Khan</b>. Contact: <a href="tel:+923108120772">0310 8120772</a>. Email: <a href="mailto:javed49818@gmail.com">javed49818@gmail.com</a>.</p>
+        
       </div>
+
     </div>
   </footer>
 </template>
