@@ -32,7 +32,7 @@ defineProps({
         <img src="/logo.jpeg" alt="Wali Hajj Services Company Pvt Ltd" class="h-16 rounded-2xl w-auto mb-4">
         <p class="text-sm">© 2023 Wali Hajj Services Company Pvt Ltd. All rights reserved.</p>
         <br>
-        <p class="text-sm">Website created by <b class="underline">Javed Khan</b>. Contact: <a href="tel:+923108120772">0310 8120772</a>. Email: <a href="mailto:javed49818@gmail.com">javed49818@gmail.com</a>.</p>
+        <p class="text-sm">Website created by <b class="underline">Javed Khan</b>. Contact: <a href="tel:+923108120772">0310 8120772</a>. Email: <a href="mailto:javed49818@gmail.com">javed49818@gmail.com</a>. <br> LinkedIn: <a href="https://www.linkedin.com/in/javed-khan-6699b3290" target="_blank">Javed Khan</a>.</p>
         
       </div>
 
