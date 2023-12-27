@@ -10,7 +10,7 @@ defineProps({
 <!-- url('https://source.unsplash.com/random') -->
 <template id="navbar">
   <div class="h-[80vh] relative bg-cover md:bg-[50%] bg-70 selection:bg-slate-600 selection:text-white"
-    style="  background-image: url('/mainbg.jpg');   background-repeat: repeat; background-position: ; ">
+    style="  background-image: url('/mainbg.jpg');   background-repeat: repeat; background-position: bottom; ">
     <div class="px-2 pt-6 md:px-0 md:pt-0">
 
       <div class=" selection:text-black md:p-6 p-2  text-white  flex md:justify-between md:flex-row  flex-col ">
